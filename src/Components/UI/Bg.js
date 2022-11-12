@@ -4,7 +4,7 @@ import Burger from '../../Image/Burger.jpg';
 
 function Bg(){
     return (
-    <div>
+    <div className={classes["main-image"]}>
         <img src={Burger} alt="Pick your grab!!" />
     </div>
     )
